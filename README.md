@@ -1,6 +1,6 @@
 # Testing the Black-Scholes Model with Nifty50 Data
 
-This project was developed to assess the accuracy of the theoretical Black-Scholes option pricing model. It compares the model's calculated prices to real-world market prices of Nifty50 index options, using historical data from August 6, 2025, from the National Stock Exchange (NSE) of India.
+This project was developed to assess the accuracy of the theoretical Black-Scholes option pricing model. It compares the model's calculated prices to real-world market prices of Nifty50 index options, using historical data from August 6th, 2025, from the National Stock Exchange (NSE) of India.
 
 Our first step was data cleaning, where we extracted a raw NSE options data file and filtered out only the relevant Nifty50 option contracts. Then, we fed the cleaned data into our script that calculates the Black-Scholes price for each option and computes its accuracy using different key metrics.
 
