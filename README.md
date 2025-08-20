@@ -27,5 +27,5 @@ This script is the core of the project. It uses the cleaned data to:
 * Compare the calculated price to the actual market price from the dataset.
 * Compute and display three key accuracy metrics:
     * **Mean Absolute Error (MAE):** The average absolute difference between the predicted and actual prices. A lower MAE indicates a more accurate model on average.
-    * **Root Mean Squared Error (RMSE):** A measure of error that gives more weight to larger discrepancies. It's useful for highlighting cases where the model's prediction is significantly off.
-    * **R-squared (R²):** A statistical measure of how well the model's predictions explain the variance in the market prices (a value of 1.0 indicates a perfect fit). A higher R² value means the model is better at explaining the observed market prices.
+    * **Root Mean Squared Error (RMSE):** A measure of error that gives more weight to larger discrepancies.
+    * **R-squared (R²):** A statistical measure of how well the model's predictions explain the variance in the market prices (a value of 1.0 indicates a perfect fit).
