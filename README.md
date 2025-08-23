@@ -22,7 +22,7 @@ This script is the first step in the process. It performs the following actions:
 * Saves the final, analysis-ready data into `cleaned_nifty_options.csv`.
 
 ### 2. Black-Scholes Analysis (`main.ipynb`)
-This script is the core of the project. It uses the cleaned data to:
+This is the core of the project. We used the cleaned data to:
 * Calculate the theoretical option price for each contract using the Black-Scholes formula.
 * Compare the calculated price to the actual market price from the dataset.
 * Compute and display three key accuracy metrics:
